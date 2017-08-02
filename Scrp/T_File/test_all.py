@@ -16,5 +16,5 @@ class Test_Sample:
     def test_foo(self):
         f = open('./Image/1498470308.png', 'rb').read()
         # allure.attach('my attach', 'Hello, World')
-        # 失败截图-思路
+        # 失败截图展示在报告中-思路
         assert 0,allure.attach('this is a img', f, allure.attach_type.PNG)
