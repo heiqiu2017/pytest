@@ -1,0 +1,53 @@
+{
+  "uid" : "217b2b7333db2a40",
+  "name" : "Test_Sample.test_foo",
+  "title" : "Test foo",
+  "time" : {
+    "start" : 1501643202370,
+    "stop" : 1501643202392,
+    "duration" : 22
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: None\nassert 0",
+    "stackTrace" : "self = <test_all.Test_Sample instance at 0x104739cf8>\n\n    def test_foo(self):\n        f = open('./Image/1498470308.png', 'rb').read()\n        # allure.attach('my attach', 'Hello, World')\n    \n>       assert 0,allure.attach('this is a img', \"/Users/lizhaolin/Documents/Tes_pytest/Scrp/Image/1498470308.png\", allure.attach_type.PNG)\nE       AssertionError: None\nE       assert 0\n\nT_File/test_all.py:20: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4102f066e379e06c",
+    "name" : "test_all",
+    "title" : "Test all"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "this is a img",
+    "source" : "c4e953b1-6536-400e-9404-ddbcb962c925-attachment.png",
+    "type" : "image/png",
+    "size" : 63,
+    "uid" : "1c781f84a48c3f4e"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_all"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "10648-MainThread"
+  } ],
+  "parameters" : [ ]
+}

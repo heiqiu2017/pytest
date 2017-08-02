@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1501643273599,
+    "stop" : 1501643273660,
+    "duration" : 61
+  },
+  "testSuites" : [ {
+    "uid" : "805d4b956d52ba04",
+    "name" : "test_all",
+    "title" : "Test all",
+    "time" : {
+      "start" : 1501643273599,
+      "stop" : 1501643273660,
+      "duration" : 61
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "dead754338701959",
+      "name" : "Test_Sample.test_login",
+      "title" : "Test login",
+      "time" : {
+        "start" : 1501643273599,
+        "stop" : 1501643273623,
+        "duration" : 24
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b4d8e63c5ee51960",
+      "name" : "Test_Sample.test_foo",
+      "title" : "Test foo",
+      "time" : {
+        "start" : 1501643273626,
+        "stop" : 1501643273660,
+        "duration" : 34
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  } ]
+}

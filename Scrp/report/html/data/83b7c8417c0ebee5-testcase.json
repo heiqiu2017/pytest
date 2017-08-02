@@ -1,0 +1,53 @@
+{
+  "uid" : "83b7c8417c0ebee5",
+  "name" : "Test_Sample.test_foo",
+  "title" : "Test foo",
+  "time" : {
+    "start" : 1501642135329,
+    "stop" : 1501642135354,
+    "duration" : 25
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert 0",
+    "stackTrace" : "self = <test_all.Test_Sample instance at 0x109b53998>\n\n    def test_foo(self):\n        f = open('./Image/12.png', 'rb').read()\n        # allure.attach('my attach', 'Hello, World')\n        allure.attach('this is a img', f, allure.attach_type.PNG)\n>       assert 0\nE       assert 0\n\nT_File/test_all.py:20: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a1fe782c56e98bd2",
+    "name" : "test_all",
+    "title" : "Test all"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "this is a img",
+    "source" : "4961c566-c012-47a7-ab63-549b9613813f-attachment.png",
+    "type" : "image/png",
+    "size" : 174946,
+    "uid" : "18b7767c5c536c22"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10564-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_all"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

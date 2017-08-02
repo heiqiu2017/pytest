@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "4a8f3772d8a7a297",
+      "failure" : {
+        "message" : "AssertionError: None\nassert 0",
+        "stackTrace" : "self = <test_all.Test_Sample instance at 0x10db05cf8>\n\n    def test_foo(self):\n        f = open('./Image/1498470308.png', 'rb').read()\n        # allure.attach('my attach', 'Hello, World')\n    \n>       assert 0,allure.attach('this is a img', f, allure.attach_type.PNG)\nE       AssertionError: None\nE       assert 0\n\nT_File/test_all.py:20: AssertionError"
+      },
+      "testCases" : [ {
+        "uid" : "b4d8e63c5ee51960",
+        "name" : "Test_Sample.test_foo",
+        "title" : "Test foo",
+        "time" : {
+          "start" : 1501643273626,
+          "stop" : 1501643273660,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

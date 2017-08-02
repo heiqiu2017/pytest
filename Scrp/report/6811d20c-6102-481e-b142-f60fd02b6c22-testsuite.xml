@@ -1,0 +1,58 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1501643273599" stop="1501643273660">
+  <name>test_all</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1501643273599" status="passed" stop="1501643273623">
+      <name>Test_Sample.test_login</name>
+      <attachments>
+        <attachment source="5519c32c-1ec1-40b6-99aa-12a94ec1fb6e-attachment.txt" title="描述" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10668-MainThread"/>
+        <label name="host" value="bogon"/>
+      </labels>
+      <steps>
+        <step start="1501643273623" status="passed" stop="1501643273623">
+          <name>注册</name>
+          <title>注册</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1501643273623" status="passed" stop="1501643273623">
+          <name>登录账号:mio4kon</name>
+          <title>登录账号:mio4kon</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1501643273626" status="failed" stop="1501643273660">
+      <name>Test_Sample.test_foo</name>
+      <failure>
+        <message>AssertionError: None
+assert 0</message>
+        <stack-trace>self = &lt;test_all.Test_Sample instance at 0x10db05cf8&gt;
+
+    def test_foo(self):
+        f = open('./Image/1498470308.png', 'rb').read()
+        # allure.attach('my attach', 'Hello, World')
+    
+&gt;       assert 0,allure.attach('this is a img', f, allure.attach_type.PNG)
+E       AssertionError: None
+E       assert 0
+
+T_File/test_all.py:20: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="419df769-a3e1-4c03-a5b6-042168da408e-attachment.png" title="this is a img" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10668-MainThread"/>
+        <label name="host" value="bogon"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

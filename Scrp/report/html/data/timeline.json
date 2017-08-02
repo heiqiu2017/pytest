@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "bogon",
+    "threads" : [ {
+      "title" : "10668-MainThread",
+      "testCases" : [ {
+        "uid" : "dead754338701959",
+        "name" : "Test_Sample.test_login",
+        "title" : "Test login",
+        "time" : {
+          "start" : 1501643273599,
+          "stop" : 1501643273623,
+          "duration" : 24
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b4d8e63c5ee51960",
+        "name" : "Test_Sample.test_foo",
+        "title" : "Test foo",
+        "time" : {
+          "start" : 1501643273626,
+          "stop" : 1501643273660,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

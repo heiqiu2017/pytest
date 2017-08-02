@@ -1,0 +1,80 @@
+{
+  "uid" : "fc793fcea5f0b67",
+  "name" : "Test_Sample.test_login",
+  "title" : "Test login",
+  "time" : {
+    "start" : 1501641832621,
+    "stop" : 1501641832642,
+    "duration" : 21
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "300f21f14821373c",
+    "name" : "test_all",
+    "title" : "Test all"
+  },
+  "steps" : [ {
+    "name" : "注册",
+    "title" : "注册",
+    "time" : {
+      "start" : 1501641832641,
+      "stop" : 1501641832641,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "登录账号:mio4kon",
+    "title" : "登录账号:mio4kon",
+    "time" : {
+      "start" : 1501641832641,
+      "stop" : 1501641832641,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "描述",
+    "source" : "f62445d5-378a-4385-a969-ed6ebd5b6bbf-attachment.txt",
+    "type" : "text/plain",
+    "size" : 31,
+    "uid" : "12bc8de24b06f9ba"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "thread",
+    "value" : "10494-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_all"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}
