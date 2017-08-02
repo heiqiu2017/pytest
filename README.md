@@ -5,6 +5,6 @@
         * 报告截图：
         ![feature](https://github.com/linlin547/pytest_allure_test/blob/master/Scrp/Image/report.png)
 * 参考文档：
-      * https://docs.qameta.io/allure/latest/
-      * http://mio4kon.com/2017/04/12/移动端自动化测试系列之三——Allure测试报告/
-      * http://www.testworld.me/2016/08/article-586.html
+      * https://docs.qameta.io/allure/latest/ </br>
+      * http://mio4kon.com/2017/04/12/移动端自动化测试系列之三——Allure测试报告/ </br>
+      * http://www.testworld.me/2016/08/article-586.html </br>
