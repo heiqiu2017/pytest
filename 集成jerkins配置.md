@@ -24,19 +24,8 @@
             * Default Content Type: HTML(text/html)
             * Default Content(报告模版,使用以下html代码即可):
             <pre>
-                 <hr/>(本邮件是程序自动下发的，请勿回复！)<hr/>
-                 项目名称：$PROJECT_NAME<br/><hr/>
-                 构建编号：$BUILD_NUMBER<br/><hr/>
-                 git版本号：${GIT_REVISION}<br/><hr/>
-                 构建状态：$BUILD_STATUS<br/><hr/>
-                 触发原因：${CAUSE}<br/><hr/>
-                 目录：${ITEM_ROOTDIR}<br/><hr/>
-                 构建日志地址：<a href=" ">${BUILD_URL}console</a ><br/><hr/>
-                 构建地址：<a href="$BUILD_URL">$BUILD_URL</a ><br/><hr/>
-                 报告地址：<a href="${BUILD_URL}allure">${BUILD_URL}allure</a ><br/><hr/>
-                 失败数：${FAILED_TESTS}<br/><hr/>
-                 成功数：${FAILED_TESTS}<br/><hr/>
-                 变更集：${JELLY_SCRIPT,template="html"}<br/><hr/>
+                 添加(邮件模版.txt)中的内容即可。
+                 https://github.com/linlin547/pytest_allure_test/blob/master/邮件模版.txt
             </pre>
     * 配置系统邮件：
         * 系统管理-系统设置-邮件通知
